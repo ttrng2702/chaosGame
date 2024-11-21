@@ -1,10 +1,9 @@
 #ignore visual studio files 
 .vs*
 *.vcx*
-*.sIn
+*.sln
 x64
 x86
-
 
 # Prerequisites
 *.d
