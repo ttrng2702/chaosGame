@@ -1,5 +1,5 @@
-SRC_DIR := .
-OBJ_DIR := .
+SRC_DIR := ./code
+OBJ_DIR := ./code
 SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRC_FILES))
 LDFLAGS := -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
